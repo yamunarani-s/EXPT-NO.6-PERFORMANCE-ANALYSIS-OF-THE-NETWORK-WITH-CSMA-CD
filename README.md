@@ -29,7 +29,7 @@ STEP 19: At the particular time call the finish procedure.
 STEP 20: Stop the program.
  
 # PROGRAM
-
+```
 #Lan simulation – mac.tcl setns [new Simulator] #define color for data flows
 $ns color 1 blue
 $ns color 2 red
@@ -84,6 +84,7 @@ $nsat 7.0 "$ftp stop"
 $ns at 7.5 "$cbr stop"
 $ns at 8.0 "finish"
 $ns run
+```
  
 # OUTPUT
 
